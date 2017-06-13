@@ -13,7 +13,7 @@ $ npm install --save a11y-focus-scope
 In SystemJS configuration file add the following line in paths:
 
 ```js
-'a11y-focus-scope': 'node_modules/eng-a11y-focus-scope/index.js'
+'eng-a11y-focus-scope': 'node_modules/eng-a11y-focus-scope/index.js'
 ```
 
 In your Component add the following lines in imports:
