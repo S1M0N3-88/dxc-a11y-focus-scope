@@ -19,7 +19,7 @@ In SystemJS configuration file add the following line in paths:
 In your Component add the following lines in imports:
 
 ```js
-import {scopeFocus, unscopeFocus} from 'a11y-focus-scope';
+import {scopeFocus, unscopeFocus} from 'eng-a11y-focus-scope';
 ```
 
 ## Usage
