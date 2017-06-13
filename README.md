@@ -8,11 +8,23 @@
 $ npm install --save a11y-focus-scope
 ```
 
-## Usage
+## Import
+
+In SystemJS configuration file add the following line in paths:
+
+```js
+'a11y-focus-scope': 'node_modules/eng-a11y-focus-scope/index.js'
+```
+
+In your Component add the following lines in imports:
 
 ```js
 import {scopeFocus, unscopeFocus} from 'a11y-focus-scope';
+```
 
+## Usage
+
+```js
 document.body.innerHTML = `
   <button id="outer-button">Outer Button</button>
 
