@@ -1,4 +1,4 @@
-# a11y-focus-scope
+# eng-a11y-focus-scope
 
 > Accessibility util for scoping focus to an element.
 
